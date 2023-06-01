@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89ca0d84-d24b-4c98-8db0-58d6ff3583f0" name="Changes" comment="单例模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/Aircondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/AirconditionA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/AirconditionB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/EngineA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/EngineB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/FactoryBMW320.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/abstractfactory/FactoryBMW523.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/BMW320.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/BMW523.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/FactoryBMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/FactoryBMW320.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/factoryFile/FactoryBMW523.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/simplefactory/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/simplefactory/BMW320.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/simplefactory/BMW523.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/simplefactory/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/factory/simplefactory/Factory.java" afterDir="false" />
+    <list default="true" id="89ca0d84-d24b-4c98-8db0-58d6ff3583f0" name="Changes" comment="简单工厂+工厂模板+抽象工厂模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/dynamicproxy/MonitorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/dynamicproxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/dynamicproxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/dynamicproxy/StuInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/dynamicproxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/staticproxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/staticproxy/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/staticproxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayu/design/proxy/staticproxy/StudentsProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +64,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -91,7 +81,7 @@
       <recent name="com.jiayu.design.factory.factoryFile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.jiayu.design.factory.abstractfactory.Customer">
+  <component name="RunManager" selected="Application.ProxyTest">
     <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiayu.design.factory.simplefactory.Customer" />
       <module name="design" />
@@ -105,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginChannelEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayu.design.singleton.LoginChannelEnum" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayu.design.proxy.dynamicproxy.ProxyTest" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayu.design.singleton.*" />
+          <option name="PATTERN" value="com.jiayu.design.proxy.dynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiayu.design.singleton.SingletonEnum" />
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiayu.design.proxy.staticproxy.StaticProxyTest" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiayu.design.singleton.*" />
+          <option name="PATTERN" value="com.jiayu.design.proxy.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.StaticProxyTest" />
         <item itemvalue="Application.com.jiayu.design.factory.abstractfactory.Customer" />
         <item itemvalue="Application.com.jiayu.design.factory.factoryFile.Customer" />
         <item itemvalue="Application.Customer" />
-        <item itemvalue="Application.SingletonEnum" />
-        <item itemvalue="Application.LoginChannelEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685498240707</updated>
-      <workItem from="1685498242203" duration="11981000" />
+      <workItem from="1685498242203" duration="18619000" />
     </task>
     <task id="LOCAL-00001" summary="初始化设计模式项目">
       <created>1685498525133</created>
@@ -198,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685504469079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="简单工厂+工厂模板+抽象工厂模式">
+      <created>1685519812349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685519812349</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +204,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化设计模式项目" />
     <MESSAGE value="单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
+    <MESSAGE value="简单工厂+工厂模板+抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单工厂+工厂模板+抽象工厂模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
